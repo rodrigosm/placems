@@ -1,0 +1,1 @@
+http POST localhost:8080/places name="Place" city="city" state="State" slug="slugPlace" createdAt="2024-01-07T14:45:39.696933" updatedAt="2024-01-07T15:00:00.000099"
