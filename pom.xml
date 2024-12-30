@@ -36,6 +36,8 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
+		
+
 
 		<!-- Para utilizar versão com banco NoSQL - MongoDB - reativo ou não. -->
 		<!-- <artifactId>spring-boot-starter-data-mongodb</artifactId> --> <!--Dúvida: Falta testar... ao utilizar a anotação @EnableReactiveMongoRepositories na classe principal da aplicação anotada com @SpringBootApplication não precisa utilizar a dependência "-reactive" e ao alterar a herança de "ReactiveCrudRepository<Place, Long>" para "R2dbcRepository<Place, Long>" na classe PlaceRepository.java -->
@@ -57,6 +59,11 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
@@ -70,6 +77,11 @@
 			<groupId>io.r2dbc</groupId>
 			<artifactId>r2dbc-h2</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.github.slugify</groupId>
+			<artifactId>slugify</artifactId>
+			<version>3.0.3</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -91,5 +103,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

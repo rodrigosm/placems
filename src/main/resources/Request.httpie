@@ -1,1 +1,6 @@
-http POST localhost:8080/places name="Place" city="city" state="State" slug="slugPlace" createdAt="2024-01-07T14:45:39.696933" updatedAt="2024-01-07T15:00:00.000099"
+//http POST localhost:8080/places name="Place" city="city" state="State" slug="slugPlace" createdAt="2024-01-07T14:45:39.696933" updatedAt="2024-01-07T15:00:00.000099"
+
+
+//http POST localhost:8080/places name="Place2" city="city2" state="State2" slug="slugPlace2"
+
+http POST localhost:8080/places name="Place 3" city="city 3" state="State 3"
